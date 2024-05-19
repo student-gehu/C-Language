@@ -17,7 +17,7 @@ void main(){
             if(ch==EOF){
                 break;
             }
-            fputc(ch,fp);
+            fputc(ch,fp);           //fputc writes a single character to the file associated with the file pointer fp.
         }
         fclose(fp);
 
@@ -32,7 +32,7 @@ void main(){
             if(ch==EOF){
                 break;
             }
-            putchar(ch);
+            putchar(ch);            //putchar writes a single character to the standard output (typically the screen).
         }
         fclose(fp);
     }
