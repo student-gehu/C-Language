@@ -7,7 +7,7 @@ int main(){
     scanf("%f",& Prize[1]);
     scanf("%f",& Prize[2]);*/
 
-    printf("Total Prize 1:%0.2f\n", Prize[0]+(0.18*Prize[0]));
+    printf("Total Prize 1:%0.2f\n", Prize[0]+(0.18*Prize[0]));          //we use 0.2 in between %f because we want only 2 digits in answer after the point
     printf("Total Prize 2:%0.2f\n", Prize[1]+(0.18*Prize[1]));
     printf("Total Prize 3:%0.2f\n", Prize[2]+(0.18*Prize[2]));
 
